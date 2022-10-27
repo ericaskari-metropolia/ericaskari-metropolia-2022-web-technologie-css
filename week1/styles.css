@@ -51,6 +51,7 @@ header img {
     text-align: justify;
     margin: 0;
     padding: 0 1rem;
+    line-height: 1.6rem;
 }
 
 .content-nav > li > a {
