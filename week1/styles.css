@@ -1,0 +1,82 @@
+
+html {
+    font-family: 'Mulish', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    height: 200px;
+    min-height: 20vh;
+    max-height: 30vh;
+
+}
+
+header img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.content {
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.content-nav {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    gap: 1rem;
+    padding: 0.4rem 1rem;
+}
+
+.content-nav > li > a {
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.content img {
+    float: left;
+    padding: 1rem;
+    width: 30vw;
+    min-width: 150px;
+    max-width: 500px;
+    object-fit: cover;
+}
+
+.content p {
+    text-align: justify;
+    margin: 0;
+    padding: 0 1rem;
+}
+
+.content-nav > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+.content-nav > li > a {
+    cursor: pointer;
+    transition: all 0.4s;
+    display: block;
+    padding: 1rem;
+}
+
+.content-nav > li > a:hover {
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+
+.content-nav > li > a:active {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.content-nav > li > a:focus {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+
